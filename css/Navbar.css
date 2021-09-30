@@ -303,8 +303,8 @@
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
+  padding: 15px 100px;
+  font-size: 30px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -318,6 +318,7 @@
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
+    background-image: url('https://example.com/bck.png');;
   }
 }
 .navbar-toggle {
@@ -389,7 +390,7 @@
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
+    padding-top: 27px;
     padding-bottom: 15px;
   }
 }
@@ -741,4 +742,37 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar-header:after,
 .navbar-collapse:after {
   clear: both;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
 }
