@@ -240,6 +240,8 @@ figure {
 }
 img {
   vertical-align: middle;
+  display: flex;
+  margin: auto;
 }
 .img-responsive,
 .carousel-inner > .item > img,

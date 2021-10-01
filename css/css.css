@@ -1,15 +1,17 @@
 #hero {
-    background-color: #1ccacd;
+    background-image: url(../img/baner.jpg);
+    background-repeat: no-repeat;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding-left: 20rem;
-    padding-right: 5rem;
+    padding-right: 19rem;
 }
 
 #hero2 {
-    background-color: #ea00ff;
+    background-image: url(../img/deco3.png);
+    background-repeat: no-repeat; 
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 20rem;
     padding-left: 20rem;
     padding-right: 5rem;
 }
@@ -29,5 +31,5 @@
 
 .container{
     padding-right : 50px;
-
+    margin-left: 155px;
 }
