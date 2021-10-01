@@ -148,3 +148,13 @@ main {
     justify-content: center;
   }
 }
+
+.Logo50 {
+  width: 70%;
+  margin-left: 43px;
+
+}
+
+.navbar-title {
+  background-image: url(../img/Logonavbar);
+}
