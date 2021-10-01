@@ -1,5 +1,7 @@
 #hero {
-    background-image: url(../img/baner.jpg);
+    background-image: url(../img/deco2.png);
+    background-size: 27%;
+    background-position-x: right;
     background-repeat: no-repeat;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -17,7 +19,6 @@
 }
 
 #hero3 {
-    background-color: #4aff90;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding-left: 20rem;
