@@ -155,6 +155,19 @@ main {
 
 }
 
+.Logo50 {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg);
+		}
+		to {
+				-webkit-transform: rotateY(359deg);
+		}
+}
+
 .navbar-title {
   background-image: url(../img/Logonavbar);
 }
