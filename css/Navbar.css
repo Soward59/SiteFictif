@@ -116,6 +116,7 @@ main {
     width:100%;
     bottom:0px;
     z-index: 1;
+    padding-bottom: 50px;
   }
 
   .navbar:hover {
@@ -151,10 +152,19 @@ main {
 
 .Logo50 {
   width: 70%;
-  margin-left: 43px;
+  margin-left: 28px;
+  -webkit-animation: rotation 2s infinite linear;
+}
 
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotateY(0deg);
+  }
+  to {
+      -webkit-transform: rotateY(359deg);
+  }
 }
 
 .navbar-title {
-  background-image: url(../img/Logonavbar);
+background-image: url(../img/Logonavbar);
 }

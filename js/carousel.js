@@ -1,5 +1,5 @@
 $num = $('.my-card').length;
-$even = $num / 2;
+$even = $num / 8;
 $odd = ($num + 1) / 2;
 
 if ($num % 2 == 0) {

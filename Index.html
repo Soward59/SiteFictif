@@ -7,11 +7,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Kon'nichiwa | Restaurant Japonais</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="StyleSheet" href="css/Grid.css">
 		<link rel="StyleSheet" href="css/Navbar.css">
 		<link rel="StyleSheet" href="css/carousel.css">		
 		<link rel="StyleSheet" href="css/carousel2.css">			
 		<link rel="StyleSheet" href="css/Footer.css">
 		<link rel="StyleSheet" href="css/css.css">
+		<link rel="StyleSheet" href="css/style.css">
+		<link rel="StyleSheet" href="css/reboot.css">
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 	
@@ -19,21 +22,16 @@
 
 <body>
  <!-- Fixed navbar -->
- 
+ <div class="container-fluid">
+	 <div class="row">
  <nav class="navbar">
 	<ul class="navbar-menu">
-	  <li class="navbar-item logo">
-		<a href="#" class="navbar-link">
-		  <span class="navbar-title">Kon'nichiwa</span>
-		  <i class="fas fa-chevron-right navbar-icon"></i>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="Index.html" class="navbar-link">
-		  <i class="fas fa-home navbar-icon"></i>
-		  <span class="navbar-title"><img class="Logo50" alt="Logo corporation" src="img/Logo5.png"></span>
-		</a>
-	  </li>
+		<li class="navbar-item logo">
+			<a href="#Icon" class="navbar-link">
+			  <span class="navbar-title"><img class="Logo50" alt="Logo corporation" src="img/Logo5.png"></span>
+			  <i class="fas fa-chevron-right navbar-icon"></i>
+			</a>
+		</li>
 	  <li class="navbar-item">
 		<a href="Index.html" class="navbar-link">
 		  <i class="fas fa-folder navbar-icon"></i>
@@ -72,7 +70,8 @@
 	  </li>
 	</ul>
   </nav>
-
+</div> 
+</div>
 
 
   <section id="hero">
@@ -82,38 +81,46 @@
 	  </div>
 	</div>
   </section>
-  <hr>
 
-  <section id="hero2">
+  <section id="hero2" center>
 	<div class="row">
 		<div class="large-8 medium-8 columns">
+			<h1 class="h102">NOS MEILLEURES VENTES</h1>
 		  <div class="card-carousel">
-			<div class="my-card"><img width="320px" height="320px"src="img/slide1.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
-			<div class="my-card"><img width="320px" height="320px"src="img/japon.jpg"><p>test</p></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide1.jpg"><div class="border01"><p class="gold">Sushi Maison</p></div><div class="border02"><p class="slide">Spécialité japonaise faite d'une boulette de riz entourée de poisson cru. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide3.jpg"><div class="border01"><p class="gold">Onigiri</p></div><div class="border02"><p class="slide">Les Onigiri sont des boulettes de riz farcies un ingrédient, végétale ou de poisson principalement. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide4.jpg"><div class="border01"><p class="gold">Ramen</p></div><div class="border02"><p class="slide">Plat typiquement japonais composé de pâtes ou de nouilles, plongées dans un bouillon. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide5.jpg"><div class="border01"><p class="gold">Yakitori</p></div><div class="border02"><p class="slide">Spécialité culinaire japonaise présentée sous forme de brochette, principalement de viande ou de poisson.. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide6.jpg"><div class="border01"><p class="gold">Saumon</p></div><div class="border02"><p class="slide">Belle pièce de saumon accompagné sur son lit de Riz accompagné d'un quart de citron. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide7.jpg"><div class="border01"><p class="gold">Mochi</p></div><div class="border02"><p class="slide">Ces gâteaux japonais au riz sont fait avec du mochigome, un riz rond gluant japonais. Le riz est enveloppé dans une pâte comme illustré ci-dessus. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide8.jpg"><div class="border01"><p class="gold">Kakigori</p></div><div class="border02"><p class="slide">Dessert très rafraîchissant, à base de glace pilée, il en existe de nombreuses variantes intégrant des fruits frais, du miel, du chocolat, etc. </p></div></div>
+			<div class="my-card"><img width="320px" height="320px"src="img/slide9.jpg"><div class="border01"><p class="gold">Mushipan</p></div><div class="border02"><p class="slide">Cuit à la vapeur et à base de farine de blé, ce dessert, qui rappelle les muffins, est incroyablement léger et aérien comme souvent dans la pâtisserie nippone. On le mange avec le thé, accompagné de confitures. </p></div></div>
 			</div>
 		</div>
 	  </div>
 	</section>
 	
+
+
+
+
+
+
+
   <section id="hero3">
-	<div class="row">
-	  <div class="large-8 medium-8 columns">
-		<h1>BONJOUR PARIS</h1>
-		<h4>SALUT A TOUS LES POTES.</h4>
-		<a href="https://github.com/OwlCarousel2/OwlCarousel2/archive/2.3.4.zip" class="hero-button">Download</a> 
-		<a href="https://github.com/OwlCarousel2/OwlCarousel2" class="hero-button outline">Github</a> 
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-	  </div>
-	  <div class="large-4 medium-4 columns">
-		<img class="owl-logo" src="assets/img/owl-logo.png" alt="mr. Owl">
-	  </div>
-	</div>
+	<div class="container-fluid">	
+		<div class="row">
+				<h1 class="h101">LE CONCEPT KON'NICHIWA - RESTAURANTS JAPONAIS</h1>
+				<h4>SALUT A TOUS LES POTES.</h4>
+				<div class="col-sm-6 col-md-6"> 
+					<p class="concept">Le concept YOJ se veut un espace de restauration d'un genre nouveau dans la catégorie bistronomie, mix de table gastronomique Japonaise, d'Isakaya (tapas Japonais) de sushi bar et de salon de thé. Le service y est rapide et efficace, le repas léger mais consistant et varié. Son caractère traditionnel japonais le démarque radicalement de la concurrence et nous mettons l'accent sur la qualité, la fraîcheur et l’origine contrôlée de nos produits. </p>
+				</div>
+				<div class="col-sm-6 col-md-6"> 
+					<p class="concept">Chez YOJ vous bénéficiez d'un service continu de 11h30 à 22h selon les établissements et qui proposent outre les sushis, sashimis et makis, une cuisine Japonaise populaire de saison ainsi qu'un choix varié de plats végétariens. Nous proposons également l'après-midi une carte Brasserie/Salon de thé avec une offre de pâtisseries, de thés Japonais mais aussi des bières et des Sakés.</p>
+				</div>
+		</div>
+	</div>	
+
   </section> 
 
 	  <!--Footer-->
@@ -164,13 +171,12 @@
 		All rights reserved by ©CompanyName 2020 </p>
 		</div>
 		</footer>
-  </div>
 	
 	
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
   </script>
   <script src="js/carousel.js"></script>
-
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 </body>
 </html>

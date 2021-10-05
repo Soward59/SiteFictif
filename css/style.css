@@ -1,0 +1,60 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+
+body{
+font-family:'Roboto';
+}
+
+
+
+.gold
+{
+	color:#fff;
+	text-align: center;
+  	font-size:2vw;
+	width: 320px;
+	background: linear-gradient(26deg,#ffb703,#af8012,#f9b52b,#ffc445,#ad7805,#a37001);
+	background-size: 360% 360%;
+	animation: gradient-animation 24s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+	@keyframes gradient-animation
+	{
+		0%
+		{
+			background-position: 0% 50%;
+		}
+
+		50%
+		{
+			background-position: 100% 50%;
+		}
+
+		100%
+		{
+			background-position: 0% 50%;
+
+		}
+	}
+}
+
+@-webkit-keyframes Gradient
+{
+	0%
+	{
+		background-position: 30% 50%;
+	}
+
+	50%
+	{
+		background-position: 25% 50%;
+	}
+
+	100%
+	{
+		background-position: 30% 50%;
+	}
+}
