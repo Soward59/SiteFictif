@@ -1,0 +1,107 @@
+#Titre {
+  font-size: 100px;
+  color: #FF0000;
+	background: linear-gradient(to right, #FF0000 0%, #00FDFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h6 {
+  font-size: 36px;
+  font-family: Impact, fantasy;
+  color: #17E9DC;
+  background: linear-gradient(to right, #FF0000 10%, #00FDFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+h5 {
+  font-size: 40px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #FF0000 10%, #00FDFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+body {
+  background-image: url("img/Fond4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Logo36 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#text1 {
+  text-align: center;
+  padding-left: 10%;
+}
+
+#text2 {
+  text-align: center;
+  padding-right: 10%;
+}
+
+#text3 {
+  text-align: center;
+  padding-left: 10%;
+}
+.row-story1{
+  text-align: left;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.row-story2{
+  text-align: right;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.row-story3{
+  text-align: right;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.border {
+	font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 5px solid;
+	padding: 10px;
+}
+
+.full {
+	border-image: linear-gradient(180deg, red, cyan) 1;
+  background-color: #222;
+  width: 100%;
+}
+
+#img4 {
+  text-align: center;
+}
+
+#img3 {
+  text-align: center;
+}
+
+#img2 {
+  text-align: center;
+}
+
+#img1 {
+  text-align: center;
+}
