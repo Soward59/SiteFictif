@@ -204,3 +204,13 @@ h3.h301
     text-transform: uppercase;
     font-family: "Source Sans Pro",sans-serif;
 }
+
+.row2 {
+    text-align: center;
+}
+
+.border04
+{
+    background-color: #000000a1;
+    width: 430px;
+}
