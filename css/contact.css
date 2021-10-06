@@ -1,0 +1,21 @@
+body {
+    background-image: url("../img/PHOTOBOX.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: red;
+}
+
+.formulaire {
+    color: cyan
+}
+
+#valider {
+    color: white;
+    background-color: black;
+    
+}
+
