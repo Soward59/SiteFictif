@@ -1,0 +1,111 @@
+#Titre {
+  font-size: 100px;
+  color: #FF0000;
+	background: linear-gradient(to right, #FF0000 0%, #00FDFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h6 {
+  font-size: 36px;
+  font-family: Impact, fantasy;
+  color: #17E9DC;
+  background: linear-gradient(to right, #FF0000 0%, #00FDFF 100%);
+  /* Use to make a linear gradient from left to right with start of red and end of blue(cyan)
+  Utiliser pour ajouter une transition de couleur de gauche a droite en commencant par le rouge finissant au bleu(cyan)*/
+	-webkit-background-clip: text;
+  /*Webkit use to take some extensions on css, Webkit sert a utiliser des extensions spécifiques a css*/
+	-webkit-text-fill-color: transparent;
+  text-align: center;
+} /* Tous les H6 seront modifier de cette maniére */
+
+h5 {
+  font-size: 40px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #FF0000 0%, #00FDFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+body {
+  background-image: url("img/Fond4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Logo36 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text1 {
+  text-align: center;
+  padding-left: 10%;
+}
+
+#text2 {
+  text-align: center;
+  padding-right: 10%;
+}
+
+#text3 {
+  text-align: center;
+  padding-left: 10%;
+}
+.row-story1{
+  text-align: left;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.row-story2{
+  text-align: right;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.row-story3{
+  text-align: right;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.border {
+	font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 5px solid;
+	padding: 10px;
+}
+
+.full {
+	border-image: linear-gradient(180deg, red, cyan) 1;
+  /*Draw an image on the border but in this case change the color with a linear gradient
+  Dessine une image sur la bordure mais dans ce cas change la couleur grace a un dégradé*/
+  background-color: #222;
+  width: 100%;
+}
+
+#img4 {
+  text-align: center;
+}
+
+#img3 {
+  text-align: center;
+}
+
+#img2 {
+  text-align: center;
+}
+
+#img1 {
+  text-align: center;
+}
