@@ -1,180 +1,286 @@
 <!DOCTYPE html>
 <html>
     
-    <head>
-		<html lang="fr">
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link rel="stylesheet" href="Test.css">
-		<link rel="StyleSheet" href="../css/Footer.css">
-		<link rel="StyleSheet" href="../css/Navbar.css">
-		<link rel="StyleSheet" href="../css/css.css">
-		<link rel="StyleSheet" href="../css/carousel.css">
-		<link rel="StyleSheet" href="../css/carousel2.css">		
-		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-            <title>Kon'nichiwa Galerie</title>
+<head>
+	<html lang="fr">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kon'nichiwa | Restaurant Japonais</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/galerie.css">	
+	<link rel="StyleSheet" href="../css/Navbar.css">
+	<link rel="StyleSheet" href="../css/carousel.css">				
+	<link rel="StyleSheet" href="../css/Footer.css">
+	<link rel="StyleSheet" href="../css/css.css">
+	<link rel="stylesheet" href="../css/Grid.css">
+	  
+
+
 	</head>
 
 
-    <body>
+<body>
+	
 
- <!-- Fixed navbar -->
- 
- <nav class="navbar">
+
+<nav class="navbar">
 	<ul class="navbar-menu">
-	  <li class="navbar-item logo">
-		<a href="#" class="navbar-link">
-		  <span class="navbar-title">Kon'nichiwa</span>
-		  <i class="fas fa-chevron-right navbar-icon"></i>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="../Index.html" class="navbar-link">
-		  <i class="fas fa-home navbar-icon"></i>
-		  <span class="navbar-title"><img class="Logo50" alt="Logo corporation" src="img/Logo5.png"></span>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="../Index.html" class="navbar-link">
-		  <i class="fas fa-folder navbar-icon"></i>
-		  <span class="navbar-title">Accueil</span>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="Galerie.html" class="navbar-link">
-		  <i class="fas fa-bell navbar-icon"></i>
-		  <span class="navbar-title">Galerie</span>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="AboutUs.html" class="navbar-link">
-		  <i class="fas fa-user navbar-icon"></i>
-		  <span class="navbar-title">A propos de nous</span>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="Contact.html" class="navbar-link">
-		  <i class="fas fa-phone navbar-icon"></i>
-		  <span class="navbar-title">Contact</span>
-		</a>
-	  </li>
-	  <li class="navbar-item">
-		<a href="Services.html" class="navbar-link">
-		  <i class="fas fa-phone navbar-icon"></i>
-		  <span class="navbar-title">Services</span>
-		</a>
-	  </li>	  
-	  <li class="navbar-item">
-		<a href="#Services" class="navbar-link">
-		  <i class="fas fa-sign-out-alt navbar-icon"></i>
-		  <span class="navbar-title">Services</span>
-		</a>
-	  </li>
+		<li class="navbar-item logo">
+			<a href="#" class="navbar-link">
+			<span class="navbar-title">Kon'nichiwa</span>
+			<i class="fas fa-chevron-right navbar-icon"></i>
+			</a>
+		</li>
+		<li class="navbar-item">
+			<a href="#" class="navbar-link">
+			<i class="fas fa-home navbar-icon"></i>
+			<span class="navbar-title">Home</span>
+			</a>
+		</li>
+		<li class="navbar-item">
+			<a href="#" class="navbar-link">
+			<i class="fas fa-folder navbar-icon"></i>
+			<span class="navbar-title">Folders</span>
+			</a>
+		</li>
+		<li class="navbar-item">
+			<a href="#" class="navbar-link">
+			<i class="fas fa-bell navbar-icon"></i>
+			<span class="navbar-title">Notifications</span>
+			</a>
+		</li>
+		<li class="navbar-item">
+			<a href="#" class="navbar-link">
+			<i class="fas fa-user navbar-icon"></i>
+			<span class="navbar-title">Me</span>
+			</a>
+		</li>
+		<li class="navbar-item">
+			<a href="#" class="navbar-link">
+			<i class="fas fa-phone navbar-icon"></i>
+			<span class="navbar-title">Contact</span>
+			</a>
+		</li>
+		<li class="navbar-item">
+			<a href="#" class="navbar-link">
+			<i class="fas fa-sign-out-alt navbar-icon"></i>
+			<span class="navbar-title">Exit</span>
+			</a>
+		</li>
 	</ul>
-  </nav>
+</nav>
 
-		<section class="py-5 text-center container">
-		  <div class="row py-lg-5">
-			   <div class="col-lg-6 col-md-8 mx-auto">
-			      <h1 class="fw-light">Kon'nichiwa</h1>
-			      <p class="lead text-muted">Tous ces menus sont accompagnés d'un bol de soupe, d'un bol de salade et d'un bol de riz nature</p>
-			  	</div>
-		  </div>
-		</section>
-	  
-		<div class="album py-5 bg-light">
-		  <div class="container">
-	
 
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-			  <div class="col">
-				<div class="card shadow-sm">
-				  <svg class="bd-placeholder-img card-img-top" width="50%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnanil</text></svg>
-	  
-				  <div class="card-body">
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<div class="d-flex justify-content-between align-items-center">
-					  <div class="btn-group">
-						<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-						<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-					  </div>
-					  <small class="text-muted">9 mins</small>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col">
-				<div class="card shadow-sm">
-				  <svg class="bd-placeholder-img card-img-top" width="50%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-	  
-				  <div class="card-body">
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<div class="d-flex justify-content-between align-items-center">
-					  <div class="btn-group">
-						<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-						<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-					  </div>
-					  <small class="text-muted">9 mins</small>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col">
-				<div class="card shadow-sm">
-				  <svg class="bd-placeholder-img card-img-top" width="50%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-	  
-				  <div class="card-body">
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<div class="d-flex justify-content-between align-items-center">
-					  <div class="btn-group">
-						<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-						<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-					  </div>
-					  <small class="text-muted">9 mins</small>
-					</div>
-				  </div>
-				</div>
-			  </div>
-	  
-			  <div class="col">
-				<div class="card shadow-sm">
-				  <svg class="bd-placeholder-img card-img-top" width="50%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-	  
-				  <div class="card-body">
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<div class="d-flex justify-content-between align-items-center">
-					  <div class="btn-group">
-						<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-						<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-					  </div>
-					  <small class="text-muted">9 mins</small>
-					</div>
-				  </div>
-				</div>
-			  </div>
+
+
+<section class="py-5 text-center container">
+	<div class="row py-lg-5">
+		<div class="col-lg-6 col-md-8 mx-auto">
+			<h1>Kon'nichiwa<br>こんにちは</h1>
+			<p id="titre1">Tous ces menus sont accompagnés d'un bol de soupe, d'un bol de salade et d'un bol de riz nature</p>
 			</div>
+
+	</div>
+
+</section>
+
+
+
+
+<div class="container">
+	<div class="d-flex flex-row">
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/sushi.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			 <div>
+				<div class="caption">
+				<h3 class="h301">Menu GRAND BATEAU</h3>
+				<p>soupes,salades,10 Sushi assortis</p>
+				<button class="favorite styled" type="button">COMMANDER</button>
+
+
+				
+
+				
+				
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			 </div>
+		</div>
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/téléchargement.jpeg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>Menu CHIRASHI</h3>
+				<p>Soupe,salade,8 Maki maison. </p>
+				<button class="favorite styled" type="button">COMMANDER</button>
+
+				
+
+
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
 			</div>
-</div>			  
-	
-	  <!--Footer-->
-	  <div class="container">
-		<footer class="py-3 my-4">
-		  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-		  </ul>
-		  <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
-		</footer>
-	  </div>
+		</div>
+		<div class="col-sm-3 col-md-3  col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/53701550-soupe-de-ramen-japonais-avec-poulet-oeuf-ciboulette-et-pousse-sur-un-fond-en-bois-foncé-.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>SPECIAL RAMEN</h3>
+				<p> Préparée avec des nouilles, du poulet, des œufs et agrémentée de sauce soja.</p>
+				<button class="favorite styled" type="button">COMMANDER</button>
 
-       </body>
-	  </html>	  
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 col-md-3  col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/h_6._japanese_curries.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>Katsu Curry</h3>
+				<p>le katsu curry au porc est composé d'une escalope de porc panée tranchée en lamelles servie avec une sauce curry japonaise épaisse et parfumée et un bol de riz</p>
+				<button class="favorite styled" background-color="maroon" type="button">COMMANDER </button>
+
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			</div>
+		</div>	
+
+		<h1>DESSERTS</h1>
+		<hr>
+
+		<div class="col-sm-3 col-md-3  col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/dessert1-.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>BROCHETTES DE MOCHI</h3>
+				<p>Ces gâteaux japonais au riz sont fait avec du mochigome, un riz rond gluant japonais. Le riz est enveloppé dans une pâte
+					 comme illustré ci-dessou</p>				
+				<button class="favorite styled"type="button"> COMMANDER</button>
+
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			</div>
+		</div>		
+		<div class="col-sm-3 col-md-3  col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/dessert2.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>ARARE </h3>
+				<p>Ces petits crackers japonais faits de riz gluant assaisonné au soja peuvent être sucrés ou salés.</p>
+				<button class="favorite styled" type="button">COMMANDER</button>
+
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 col-md-3  col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/dessert3.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>MATCHA</h3>
+				<p>Gâteau de thé vert matcha, bars, "brownie" avec du blanc au chocolat sur une plaque</p>
+				<button class="favorite styled" type="button"> COMMANDER </button>
+
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			</div>
+		</div>	
+		<div class="col-sm-3 col-md-3  col-lg-3">
+			<div class="thumbnail">
+			<img src="../img/dessert4.jpg" alt="Jeux Vidéos" width="100%" height="200"></div>
+			<div>
+				<div class="caption">
+				<h3>TAIYAKI</h3>
+				<p>Taiyaki japonais gâteau en forme de poisson</p>
+				<button class="favorite styled"type="button"> COMMANDER </button>
+
+							 <hr>
+				<!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+				</div>
+			</div>
+		</div>				
+		
+		
+		
+		
+	</div>
+</div>		
 
 
 
-	
+
+
+<!--Footer-->
+<footer class="footer">
+<div class="allfooter">
+<div class="l-footer">
+<h1>
+<img src="img/Restaurant.png" alt=""></h1>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque recusandae in sit sunt molestiae aliquid fugit. Mollitia eaque tempore iure sit nobis? Vitae nemo, optio maiores numquam quis recusandae.</p>
+</div>
+<ul class="r-footer">
+<li>
+<h2>
+Social</h2>
+<ul class="box">
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Twitter</a></li>
+<li><a href="#">Pinterest</a></li>
+<li><a href="#">Dribbble</a></li>
+</ul>
+</li>
+<li class="features">
+<h2>
+Information</h2>
+<ul class="box h-box">
+<li><a href="#">Blog</a></li>
+<li><a href="#">Pricing</a></li>
+<li><a href="#">Sales</a></li>
+<li><a href="#">Tickets</a></li>
+<li><a href="#">Certifications</a></li>
+<li><a href="#">Customer Service</a></li>
+</ul>
+</li>
+<li>
+<h2>
+Legal</h2>
+<ul class="box">
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Contract</a></li>
+</ul>
+</li>
+</ul>		
+</div>		
+<div class="b-footer">
+<p>
+All rights reserved by ©CompanyName 2020 </p>
+</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+</script>
+<script src="js/carousel.js"></script>
+
+
+</body>
+</html>	  
