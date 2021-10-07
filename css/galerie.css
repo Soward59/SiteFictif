@@ -1,7 +1,14 @@
+body{
+
+    background-color: #7e7a7a ;
+}
+
+
 
 h3{
 
 text-decoration: underline;
+text-align: center;
 
 }
 
@@ -33,7 +40,13 @@ p {
       text-align: center; 
       font-weight: bold;
       font-size: 2.0em;
+      color: #000;
       
+}
+
+#titre2{
+
+    color: #000;
 }
 
 
@@ -69,7 +82,35 @@ p {
 
 .thumbnail{
 
-    border :4px solid black
+    border:4px solid black;
     
 }
 
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .button1 {
+    line-height: 20px;
+    padding: 12px 15px;
+    border-radius: 50px;
+    background-color: #000000;
+    transition: all 1s;
+  }
+  
+  .button1:hover {
+    line-height: 30px;
+    padding: 18px 20px;
+    border: 4px solid red;
+    box-shadow: 1px 1px 1px rgba(212, 212, 212, 0.4);
+  }
+  
+  #Image70 {
+    text-align: center;
+  }
+  #Groubik {
+    width: 50%;
+  }
+  
