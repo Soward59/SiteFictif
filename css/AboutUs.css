@@ -34,7 +34,7 @@ p {
 }
 
 body {
-  background-image: url("img/Fond4.jpg");
+  background-image: url("../img/Fond4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
